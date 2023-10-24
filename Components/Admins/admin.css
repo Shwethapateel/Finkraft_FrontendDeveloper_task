@@ -1,0 +1,16 @@
+#adminpage{
+    background-color: #a445b2;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#adminhead{
+    margin: 100px;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+  #adminhead {
+    margin: 20px;
+    font-size: 24px;
+  }
+}

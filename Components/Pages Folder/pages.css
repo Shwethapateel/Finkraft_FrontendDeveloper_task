@@ -1,0 +1,16 @@
+#HomePage, #aboutpage{
+    background-color: #a445b2;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#abouthead, #homehead{
+    margin: 100px;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+  #abouthead, #homehead {
+    margin: 20px;
+    font-size: 24px;
+  }
+}

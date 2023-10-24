@@ -1,0 +1,76 @@
+#login{
+    padding: 70px;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right, #a445b2, #fa4299);
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    place-items: center;
+}
+#loginHeading{
+    text-align: center;
+    margin-top: 5px;
+}
+#loginbody1{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#loginbody2{
+    margin: 20px;
+}
+#loginform{
+    border: 2px solid black;
+    border: none;
+    background-color: whitesmoke;
+    color: black;
+    max-width: 700px;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 15px 20px rgba(0,0,0,5);
+    width: 450px;
+    text-align: start;
+}
+label{
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+input{
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+#nameerror,#pwderror{
+    margin-top: 5px;
+    border-top: 1.5px solid black;
+    padding-top: 5px;
+    margin-bottom: 9px;
+    color: red;
+}
+#bttn{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+#submitbtn,#cancelbtn{
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    background-image: linear-gradient(to right, #a445b2, #fa4299);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  #login {
+    padding: 20px;
+  }
+
+  #loginform {
+    max-width: 100%;
+    width: 100%;
+  }
+}
